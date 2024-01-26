@@ -1,0 +1,103 @@
+/* root variables */
+:root{
+  --blue: hsl(237, 18%, 59%);
+  --red: hsl(345, 95%, 68%);
+  --white: hsl(0, 0%, 100%);
+  --desaturated-blue: hsl(236, 21%, 26%);
+  --v-dark-blue: hsl(235, 16%, 14%);
+  --vv-dark-blue: hsl(234, 17%, 12%);
+  --font-size: 14px;
+}
+/*tag selectors*/
+body{
+  background-color: var(--v-dark-blue);
+  background-image: url('images/bg-stars.svg');
+  margin: 0;
+}
+/*img styling*/
+.hills-img{
+  width: 100%;
+  position: absolute;
+  bottom: 0%;
+  z-index: 1;
+}
+
+/* alignment */
+.clock{
+  display: flex;
+  gap: 10px;
+}
+.clock-hrs, .clock-mins, .clock-secs, .clock-days{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.whole-container{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.flip-clock{
+  background-color: var(--desaturated-blue);
+  border-radius: 10%;
+  padding: 1%;
+  margin-right: 2%;
+}
+
+/* attribution styles*/
+.attribution {
+  position: absolute;
+  bottom: 0%;
+  left: 50%;
+  text-align: center;
+  z-index: 100;
+}
+.att-para{
+  font-family: "Red Hat Text", sans-serif;
+  font-size: 15px;
+  color: white;
+  font-weight: 400;
+}
+.attribution a {
+  color:var(--red);
+}
+/* text styling */
+header{
+  text-align: center;
+}
+main{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h1{
+  font-family: "Red Hat Text", sans-serif;
+  letter-spacing: 10px;
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--white);
+  display: inline-block;
+}
+.title{
+  letter-spacing: 10px;
+  margin-top: 65px;
+  margin-bottom: 65px;
+  font-size: 28px;
+}
+p{
+  display: inline-block;
+  font-family: "Red Hat Text", sans-serif;
+  font-size: 14px;
+  color: var(--red);
+  margin: 0px;
+  
+}
+.time{
+  font-weight: 700;
+  font-size: 60px;
+}
+.label-dhms{
+  letter-spacing: 2px;
+}
