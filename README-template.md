@@ -15,7 +15,7 @@ This is a New Year countdown timer inspired from an exercise on [Frontend Mentor
 
 ## Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Live-Site](https://newyearcountdown-rosy.vercel.app/)
 
 ## Built with
 
